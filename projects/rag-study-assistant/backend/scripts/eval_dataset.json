@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What is Retrieval-Augmented Generation (RAG)?",
+    "expected_source": "sample.md"
+  },
+  {
+    "question": "Why do we split documents into chunks before embedding them?",
+    "expected_source": "sample.md"
+  },
+  {
+    "question": "What is a vector store used for?",
+    "expected_source": "sample.md"
+  },
+  {
+    "question": "Which vector store does this project use and how does it persist data?",
+    "expected_source": "sample.md"
+  },
+  {
+    "question": "What problem does combining retrieval with generation solve for a language model?",
+    "expected_source": "sample.md"
+  }
+]

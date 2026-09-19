@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>RAG Study Assistant</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main>
+    <h1>PHU-GPT</h1>
+
+    <form id="ingest-form" class="ingest-form">
+      <input id="ingest-file" type="file" accept=".pdf,.txt,.md" required />
+      <button type="submit">Ingest</button>
+      <span id="ingest-status" class="ingest-status"></span>
+    </form>
+
+    <div id="log" class="log"></div>
+    <form id="chat-form">
+      <input id="message" type="text" placeholder="Ask about your documents..." autocomplete="off" required />
+      <button type="submit">Send</button>
+    </form>
+  </main>
+  <script src="app.js"></script>
+</body>
+
+</html>

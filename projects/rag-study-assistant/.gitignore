@@ -1,0 +1,14 @@
+backend/.venv/
+backend_langchain/.venv/
+backend/data/chroma/*
+!backend/data/chroma/.gitkeep
+backend_langchain/data/chroma/*
+!backend_langchain/data/chroma/.gitkeep
+backend/data/documents/*
+!backend/data/documents/.gitkeep
+!backend/data/documents/sample.md
+*.db
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
